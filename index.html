@@ -1,108 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>José Ángel Calero M. - CV</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-      padding: 40px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    .contact a {
-      display: block;
-      color: #2980b9;
-      text-decoration: none;
-    }
-    .timeline {
-      border-left: 4px solid #3498db;
-      margin-left: 10px;
-      padding-left: 20px;
-    }
-    .timeline div {
-      margin-bottom: 20px;
-    }
-    .fun {
-      background-color: #ecf0f1;
-      padding: 20px;
-      border-radius: 10px;
-    }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>José Ángel Calero M. - CV</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="resume">
+        <!-- Contact Info -->
+        <div class="resume__block">
+          <div class="contact-info__header">José Ángel Calero M.</div>
+          <div class="contact-info__sub-header">
+            Full-Stack Web Developer & Digital Humanist
+          </div>
+          <div class="contact_info_container fh">
+            <div class="contact-info__block contact-info__block--center">
+              <img
+                class="contact-info__avatar"
+                src="https://via.placeholder.com/100"
+                alt="José Ángel Calero"
+              />
+            </div>
+            <div class="contact-info__block">
+              <a
+                class="contact-info__item"
+                href="mailto:joseacalerom@gmail.com"
+              >
+                <span class="contact-info__item-icon-wrapper">📧</span>
+                jacalero.94@gmail.com
+              </a>
+              <a class="contact-info__item" href="tel:+34602498194">
+                <span class="contact-info__item-icon-wrapper">📱</span>
+                +55 (99) 98 199 43 60
+              </a>
+              <a
+                class="contact-info__item"
+                href="https://github.com/josecalerom"
+                target="_blank"
+              >
+                <span class="contact-info__item-icon-wrapper">💻</span>
+                GitHub: jacm94
+              </a>
+              <a
+                class="contact-info__item"
+                href="https://www.linkedin.com/in/josecalerom"
+                target="_blank"
+              >
+                <span class="contact-info__item-icon-wrapper">🔗</span>
+                LinkedIn: josecalerom
+              </a>
+              <div class="contact-info__item">
+                <span class="contact-info__item-icon-wrapper">📍</span>
+                Caxias (MA), Brazil
+              </div>
+            </div>
+          </div>
+        </div>
 
-  <h1>José Ángel Calero M.</h1>
-  <p><strong>Full-Stack Web Developer & Digital Humanist</strong></p>
+        <!-- Introduction -->
+        <div class="resume__block">
+          <div class="intro">
+            <div class="intro__icon-wrapper">👋</div>
+            <div class="intro_text">
+              I am a full-stack developer with a background in Hispanic
+              Philology. I am passionate about clean code, creative
+              problem-solving, and continuous learning. I'm looking for
+              opportunities to grow in a dynamic environment where I can apply
+              both my technical skills and my analytical, communicative
+              strengths.
+            </div>
+          </div>
+        </div>
 
-  <h2>👋 Introduction</h2>
-  <p>I am a full-stack developer with a background in Hispanic Philology. I am passionate about clean code, creative problem-solving, and continuous learning. I'm looking for opportunities to grow in a dynamic environment where I can apply both my technical skills and my analytical, communicative strengths.</p>
+        <!-- Timeline / Experience & Education -->
+        <div class="resume__block fh">
+          <div class="experiences">
+            <div class="experiences__header">🕒 Timeline</div>
 
-  <h2>📬 Contact</h2>
-  <div class="contact">
-    <a href="mailto:joseacalerom@gmail.com">📧 jacalero.94@gmail.com</a>
-    <a href="tel:+34602498194">📱 +34 602 498 194</a>
-    <a href="https://github.com/josecalerom" target="_blank">💻 GitHub: jacm94</a>
-    <a href="https://www.linkedin.com/in/josecalerom" target="_blank">🔗 LinkedIn: josecalerom</a>
-    <p>📍 Caxias (MA), Brazil</p>
-  </div>
+            <div class="experiences__company-project">
+              <div class="experiences__company-header-durability">
+                2023–2024
+              </div>
+              <div class="experiences__company-header-name">
+                Develhope Bootcamp
+              </div>
+              <div class="experiences__company-project-responsibilities">
+                Built full websites using HTML, CSS, JavaScript, TypeScript,
+                Node.js, and React.
+              </div>
+            </div>
 
-  <h2>🕒 Timeline</h2>
-  <div class="timeline">
-    <div>
-      <strong>2023–2024</strong><br>
-      <em>Full-Stack Web Developer Bootcamp – Develhope</em><br>
-      Built full websites using HTML, CSS, JavaScript, TypeScript, Node.js, and React. Gained hands-on experience in Agile environments and collaborative coding.
+            <div class="experiences__company-project">
+              <div class="experiences__company-header-durability">
+                2018–2023
+              </div>
+              <div class="experiences__company-header-name">
+                University of La Laguna
+              </div>
+              <div class="experiences__company-project-responsibilities">
+                Degree in Hispanic Philology. Final research project and
+                academic participation.
+              </div>
+            </div>
+
+            <div class="experiences__company-project">
+              <div class="experiences__company-header-durability">2023</div>
+              <div class="experiences__company-header-name">
+                Coursera (Google)
+              </div>
+              <div class="experiences__company-project-responsibilities">
+                Python fundamentals through theory and practical challenges.
+              </div>
+            </div>
+
+            <div class="experiences__company-project">
+              <div class="experiences__company-header-durability">2023</div>
+              <div class="experiences__company-header-name">Code Institute</div>
+              <div class="experiences__company-project-responsibilities">
+                5-Day HTML/CSS/JS challenge creating structured web pages.
+              </div>
+            </div>
+
+            <div class="experiences__company-project">
+              <div class="experiences__company-header-durability">
+                2023–2024
+              </div>
+              <div class="experiences__company-header-name">
+                Full-Stack Projects
+              </div>
+              <div class="experiences__company-project-responsibilities">
+                • Rolling Stone Magazine (HTML + CSS)<br />
+                • LEGO Brand site with React, TypeScript, state, APIs
+              </div>
+            </div>
+
+            <div class="experiences__company-project">
+              <div class="experiences__company-header-durability">
+                2019–2023
+              </div>
+              <div class="experiences__company-header-name">
+                Multitienda Mérida
+              </div>
+              <div class="experiences__company-project-responsibilities">
+                Sales, customer service, inventory and restocking.
+              </div>
+            </div>
+          </div>
+
+          <div class="additional-info">
+            <div class="additional-info__education">
+              <div class="additional-info__education-header">🎓 Education</div>
+              <div class="additional-info__education-university-durability">
+                2018–2023
+              </div>
+              <div class="additional-info__education-university-speciality">
+                Hispanic Philology
+              </div>
+              <div class="additional-info__education-university-name">
+                University of La Laguna
+              </div>
+            </div>
+
+            <div class="additional-info__languages">
+              <div class="additional-info__languages-header">🌐 Languages</div>
+              <div class="additional-info__languages-item">
+                Spanish (native)
+              </div>
+              <div class="additional-info__languages-item">English (B2)</div>
+              <div class="additional-info__languages-item">
+                Portuguese (conversational)
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="resume__block">
+          <div class="skills__header">🛠️ Skills</div>
+          <div class="skills__text">
+            • Front-end: HTML, CSS, JavaScript, TypeScript, React.js<br />
+            • Back-end: Node.js, APIs<br />
+            • Other: Python, Git/GitHub, Responsive Design, Clean Code
+          </div>
+        </div>
+
+        <!-- About Me -->
+        <div class="resume__block">
+          <div class="skills__header">🎨 About Me</div>
+          <div class="skills__text">
+            📚 Passionate about literature and languages.<br />
+            🎮 Enjoys designing clean UIs and debugging logic.<br />
+            🐱 Cat lover, problem solver, poetic coder.<br />
+            🥚 Easter egg: your next app might include a haiku!
+          </div>
+        </div>
+      </div>
     </div>
-    <div>
-      <strong>2018–2023</strong><br>
-      <em>Bachelor's Degree in Hispanic Philology – University of La Laguna</em><br>
-      Deep understanding of Spanish grammar, literature, and linguistics. Participated in academic seminars and completed a final research project.
-    </div>
-    <div>
-      <strong>2023</strong><br>
-      <em>Crash Course on Python – Coursera (by Google)</em><br>
-      Gained solid Python fundamentals through theory and practical challenges, including virtual machine usage.
-    </div>
-    <div>
-      <strong>2023</strong><br>
-      <em>5-Day Coding Challenge – Code Institute</em><br>
-      Practiced HTML, CSS, and JavaScript by creating structured web pages from scratch.
-    </div>
-    <div>
-      <strong>2023–2024</strong><br>
-      <em>Full-Stack Projects</em><br>
-      • Rolling Stone Magazine (HTML + CSS)<br>
-      • LEGO Brand site using React, TypeScript, state management (easy-peasy), and external libraries (axios, react-icons)
-    </div>
-    <div>
-      <strong>2019–2023</strong><br>
-      <em>Sales Associate & Storekeeper – Multitienda Mérida</em><br>
-      Customer service, restocking, inventory management, and sales support.
-    </div>
-  </div>
-
-  <h2>🛠️ Skills</h2>
-  <ul>
-    <li>Languages: Spanish (native), English (B2), Portuguese (conversational)</li>
-    <li>Front-end: HTML, CSS, JavaScript, TypeScript, React.js</li>
-    <li>Back-end: Node.js, APIs</li>
-    <li>Other: Python, Git/GitHub, Responsive Design, Clean Code</li>
-  </ul>
-
-  <h2>🎨 About Me</h2>
-  <div class="fun">
-    <p>📚 Passionate about literature and learning languages.</p>
-    <p>🎮 I enjoy building clean interfaces as much as debugging tricky logic.</p>
-    <p>🐱 Cat lover, problem solver, and fan of poetic code.</p>
-    <p>🥚 Easter egg: If you read this far, your next app might just include a haiku!</p>
-  </div>
-
-</body>
+  </body>
 </html>
